@@ -1,0 +1,32 @@
+/* General styles for the GreetingCard */
+.greeting-card {
+  width: 300px;
+  margin: 20px auto; /* Center the card horizontally */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Light background */
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading styles */
+.greeting-card h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Message text */
+.greeting-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* Sender text */
+.greeting-card p:last-child {
+  font-weight: bold;
+  color: #222;
+}

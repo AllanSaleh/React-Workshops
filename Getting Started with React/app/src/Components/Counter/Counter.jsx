@@ -17,7 +17,7 @@ const Counter = () => {
     try {
       const result = await fetch('https://api.api-ninjas.com/v1/quotes', {
         headers: {
-          'X-Api-Key': 'MzWQiU3dsIl4mrDU/015fw==qFiRCiDyxdEx8Ruf'
+          'X-Api-Key': '<GET YOUR OWN API KEY>'
         }
       }
     )

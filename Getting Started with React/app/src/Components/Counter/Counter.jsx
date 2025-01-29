@@ -10,7 +10,7 @@ const Counter = () => {
 
   useEffect(() => {
     console.log("3. Mounted")
-    fetchQuote()
+    // fetchQuote() I TURNED THIS OFF FOR THE MOMENT
   }, [])
 
   async function fetchQuote() {
